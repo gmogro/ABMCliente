@@ -6,6 +6,8 @@ public class Cliente {
 	private String domicilio;
 	private String cuit;
 	private String telefono;
+	private String responsabilidadAfip;
+	private String fechaNacimiento;
 	
 	public Cliente() {
 	}
@@ -54,6 +56,18 @@ public class Cliente {
 	}
 	public void setTelefono(String telefono) {
 		this.telefono = telefono;
+	}
+	public String getResponsabilidadAfip() {
+		return responsabilidadAfip;
+	}
+	public void setResponsabilidadAfip(String responsabilidadAfip) {
+		this.responsabilidadAfip = responsabilidadAfip;
+	}
+	public String getFechaNacimiento() {
+		return fechaNacimiento;
+	}
+	public void setFechaNacimiento(String fechaNacimiento) {
+		this.fechaNacimiento = fechaNacimiento;
 	}
 	
 	
