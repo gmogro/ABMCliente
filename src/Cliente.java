@@ -8,7 +8,7 @@ public class Cliente {
 	private String telefono;
 	private String responsabilidadAfip;
 	private String fechaNacimiento;
-	
+	private String correo;
 	public Cliente() {
 	}
 	public Cliente(int idcliente, String nombre, String apellido, String domiciolio, String cuit, String telefono) {
@@ -69,7 +69,12 @@ public class Cliente {
 	public void setFechaNacimiento(String fechaNacimiento) {
 		this.fechaNacimiento = fechaNacimiento;
 	}
-	
+	public String getCorreo() {
+		return correo;
+	}
+	public void setCorreo(String correo) {
+		this.correo = correo;
+	}
 	
 	
 }
